@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/rami/Quran-app/client'
+let g:netrw_dirhist_4='/home/rami/Quran-app/client/src'
+let g:netrw_dirhist_3='/home/rami/Quran-app/client'
+let g:netrw_dirhist_2='/home/rami/Quran-app'
+let g:netrw_dirhist_1='/home/rami/Quran-app/api'
+let g:netrw_dirhist_0='/home/rami/Quran-app'
+let g:netrw_dirhist_9='/home/rami'
+let g:netrw_dirhist_8='/home/rami/typescript-course/project'
+let g:netrw_dirhist_7='/home/rami/Go-course/app'
+let g:netrw_dirhist_6='/home/rami/Holda/businessmaker/frontend/src/components'
