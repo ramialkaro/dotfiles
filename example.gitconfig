@@ -1,0 +1,30 @@
+
+[alias]
+  gs = status
+  ga = add
+  gaa = add --all
+  gc = commit
+  gcm = commit -m
+  gd = diff
+  gco = checkout
+  gb = branch
+  gba = branch -a
+  gl = log
+  gm = merge
+  gr = remote
+  grv = remote -v
+  gpr = pull --rebase
+  gpush = push
+  gdc = diff --cached
+  gch = checkout -
+  gbr = branch --remote
+  glog = log --oneline --decorate --graph
+  git-delete-merged-branches = !git branch --merged | egrep -v "(^\\*|master|main|dev)" | xargs git branch -d
+  git-delete-merged-branches-force = !git branch --merged | egrep -v "(^\\*|master|main|dev)" | xargs git branch -D
+  git-branch-from = checkout -b
+  git-feature-start = !git flow feature start
+  git-feature-finish = !git flow feature finish
+  git-hotfix-start = !git flow hotfix start
+  git-hotfix-finish = !git flow hotfix finish
+  git-release-start = !git flow release start
+  git-release-finish = !git flow release finish
